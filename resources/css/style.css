@@ -1,10 +1,9 @@
 body  {
   text-align: center;
-  font-family: Helvetica sans-serif;
-
+  font-family: Helvetica, sans-serif;
 }
 
-.cloudpic  {
+#cloudpic  {
   background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -15,14 +14,24 @@ body  {
 
 #title  {
   font-size: 70px;
+  font-weight: bold;
 }
 
 #subtitle  {
   font-size: 32px;
 }
 
-#menu {
-  list-style: none;
+.smallhead  {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#middlepic  {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+}
+
+#middlepic h3  {
+  color: white;
 }
 
 .nav p a  {
